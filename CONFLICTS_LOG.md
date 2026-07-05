@@ -1,0 +1,1 @@
+#04/07/2026/9:30 P.M.: Momento del conflicto: Al hacer merge del dev a mi rama feature.   Archivos afectados: (index.html).  Decisión tomada: Acepte los dos cambios, posterior a ello elimine partes que estaban demas, ya que estas afectaban a la navegación
