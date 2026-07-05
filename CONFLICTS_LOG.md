@@ -2,17 +2,8 @@
 
 ## Conflicto 2
 
-Fecha/Hora:
-04/07/2026
-
-Archivo afectado:
-css/styles.css
-
-Descripción:
-La rama de Carlos modificó el mismo bloque de estilos (#contenedor-destacados y body) que la rama de Galo.
-
-Decisión tomada:
-Se mantuvo el diseño con display: grid y se conservaron las mejoras necesarias del resto de cambios.
-
-Resultado:
-Conflicto resuelto e integrado correctamente en la rama dev.
+Fecha/Hora: 04/07/2026
+Archivo afectado: css/styles.css
+Descripción: La rama de Carlos modificó el mismo bloque de estilos (#contenedor-destacados y body) que la rama de Galo.
+Decisión tomada:  Se mantuvo el diseño con display: grid y se conservaron las mejoras necesarias del resto de cambios.
+Resultado: Conflicto resuelto e integrado correctamente en la rama dev.
