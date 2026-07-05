@@ -1,0 +1,358 @@
+/* ===========================
+   ESTILOS GENERALES
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:lightgreen;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 25px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* ===========================
+   MENÚ
+=========================== */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #2563eb;
+}
+
+/* ===========================
+   CONTENIDO
+=========================== */
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+main p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+/* ===========================
+   TARJETAS
+=========================== */
+
+#contenedor-destacados{
+    display:flex;
+    flex-direction:column;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+    transition: .3s;
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card .contenido {
+    padding: 20px;
+}
+
+.card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.card a:hover {
+    background: #1d4ed8;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    margin-top: 50px;
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:lightblue;
+}
+/* Contenedor principal */
+
+.cv-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+}
+
+/* Sidebar */
+
+.sidebar {
+    background: #1f2937;
+    color: #fff;
+    padding: 30px;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+.perfil h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cargo {
+    color: #d1d5db;
+}
+
+.sidebar h2 {
+    margin: 25px 0 15px;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.sidebar i {
+    color: #60a5fa;
+    margin-right: 10px;
+}
+
+/* Habilidades */
+
+.skill {
+    margin-bottom: 18px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.barra {
+    width: 100%;
+    height: 8px;
+    background: #4b5563;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.nivel {
+    height: 100%;
+    background: #3b82f6;
+}
+
+.noventa {
+    width: 90%;
+}
+
+.ochenta {
+    width: 80%;
+}
+
+/* Contenido */
+
+.contenido {
+    padding: 40px;
+}
+
+.contenido section {
+    margin-bottom: 40px;
+}
+
+.contenido h2 {
+    color: #1e3a8a;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 8px;
+}
+
+.trabajo {
+    margin-bottom: 25px;
+}
+
+.trabajo h3 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.trabajo ul {
+    margin-left: 20px;
+}
+
+.trabajo li {
+    margin-bottom: 8px;
+}
+
+.estudio {
+    margin-bottom: 20px;
+}
+
+.estudio h3 {
+    color: #111827;
+}
+
+.estudio p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.estudio span {
+    color: #777;
+}
+
+.lista-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lista-herramientas span {
+    background: #2563eb;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Responsive */
+
+@media(max-width:900px) {
+
+    .cv-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        text-align: center;
+    }
+
+    .contenido {
+        padding: 25px;
+    }
+
+}
