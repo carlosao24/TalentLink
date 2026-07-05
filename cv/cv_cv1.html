@@ -3,79 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Profesional - Carlos López</title>
+    <title>CV - Carlos López</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Carlos López</h1>
-        <p>Desarrollador de Software | Especialista en Desarrollo Web | Redactor Técnico</p>
-    </header>
+<div class="cv-container">
 
-    <main style="padding: 20px; max-width: 800px; margin: 0 auto;">
-        
-        <section style="margin-bottom: 25px;">
-            <h2>Perfil Profesional</h2>
-            <p>
-                Perfil técnico enfocado en el desarrollo de aplicaciones web e integración de sistemas utilizando arquitectura Java. Experiencia paralela en producción de contenido técnico y estructuración de narrativa documental, optimizando la claridad y trazabilidad de la información. Competencia en la implementación de herramientas de inteligencia artificial para la automatización de flujos de trabajo y optimización de código.
+    <!-- ==================== SIDEBAR ==================== -->
+
+    <aside class="sidebar">
+
+        <div class="perfil">
+
+            <img src="../img/carlos.jpg" alt="Foto de Carlos López" class="foto-perfil">
+
+            <h1>Carlos López</h1>
+
+            <p class="cargo">
+                Desarrollador Backend Java <br>
+                Full Stack Developer <br>
+                TIC Specialist
             </p>
-        </section>
 
-        <section style="margin-bottom: 25px;">
-            <h2>Formación Académica y Certificaciones</h2>
+        </div>
+
+        <section class="contacto">
+
+            <h2>Contacto</h2>
+
             <ul>
+
                 <li>
-                    <strong>Desarrollo de Software</strong><br>
-                    Krakedev — Formación técnica especializada en desarrollo y ciclo de vida del software.
+                    <i class="fa-solid fa-envelope"></i>
+                    carlos.lopez@email.com
                 </li>
-                <li style="margin-top: 10px;">
-                    <strong>Certificación: Aplicación de Inteligencia Artificial como Herramienta de Trabajo</strong><br>
-                    Enfoque en optimización de procesos, automatización de tareas operativas y asistencia en desarrollo técnico.
+
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +593 987 654 321
                 </li>
+
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Quito - Ecuador
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-globe"></i>
+                    github.com/carloslopez
+                </li>
+
             </ul>
+
         </section>
 
-        <section style="margin-bottom: 25px;">
-            <h2>Competencias Técnicas Core</h2>
-            <table style="width: 100%; border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 5px 0; font-weight: bold; width: 30%;">Backend:</td>
-                    <td style="padding: 5px 0;">Java, Programación Orientada a Objetos (POO), gestión de lógica de negocio.</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 0; font-weight: bold;">Frontend & Web:</td>
-                    <td style="padding: 5px 0;">Desarrollo web estructurado, maquetación adaptativa y lógica de cliente.</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 0; font-weight: bold;">Producción Textual:</td>
-                    <td style="padding: 5px 0;">Redacción técnica, documentación de procesos, estructuración de manuales y narrativa de proyectos.</td>
-                </tr>
-            </table>
+        <section class="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <div class="skill">
+                <span>Java (Spring Boot)</span>
+                <div class="barra">
+                    <div class="nivel noventa"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>PostgreSQL</span>
+                <div class="barra">
+                    <div class="nivel noventa"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="barra">
+                    <div class="nivel ochenta"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>HTML5 & CSS3</span>
+                <div class="barra">
+                    <div class="nivel noventa"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Git & GitHub</span>
+                <div class="barra">
+                    <div class="nivel noventa"></div>
+                </div>
+            </div>
+
         </section>
 
-        <section style="margin-bottom: 25px;">
-            <h2>Experiencia Destacada</h2>
-            
-            <div style="margin-bottom: 15px;">
-                <strong>Desarrollador Web & Backend Java</strong><br>
-                <span>Proyectos Independientes / Académicos</span>
-                <ul style="margin-top: 5px;">
-                    <li>Diseño e implementación de arquitectura de software utilizando Java.</li>
-                    <li>Construcción de interfaces web funcionales garantizando la correcta comunicación con servicios del lado del servidor.</li>
+    </aside>
+
+    <!-- ==================== CONTENIDO ==================== -->
+
+    <main class="contenido">
+
+        <section class="sobre-mi">
+
+            <h2>Perfil Profesional</h2>
+
+            <p>
+                Estudiante avanzado de Tecnologías de la Información y la Comunicación (TIC) con sólida formación práctica enfocado en el desarrollo de aplicaciones web robustas, escalables y eficientes. Con amplia experiencia en la arquitectura e implementación de servicios backend con Java y Spring Boot, bases de datos relacionales como PostgreSQL y diseño de interfaces web dinámicas. Hábil en la gestión y control de versiones con Git, resolución de problemas bajo metodologías ágiles y con capacidad adaptativa demostrada en entornos multidisciplinarios y tecnológicos.
+            </p>
+
+        </section>
+
+        <section class="experiencia">
+
+            <h2>Experiencia Laboral</h2>
+
+            <article class="trabajo">
+
+                <h3>Desarrollador Backend Junior</h3>
+
+                <ul>
+
+                    <li>Diseño y construcción de REST APIs utilizando Java y Spring Boot.</li>
+
+                    <li>Modelado, optimización y migración de bases de datos relacionales en PostgreSQL.</li>
+
+                    <li>Control de versiones, despliegue continuo y administración de repositorios colaborativos utilizando Git Flow en GitHub.</li>
+
+                    <li>Integración de componentes frontend dinámicos con JavaScript, asegurando consistencia en la comunicación de datos.</li>
+
                 </ul>
+
+            </article>
+
+            <article class="trabajo">
+
+                <h3>Desarrollador Técnico & Webmaster (Proyecto Independiente)</h3>
+
+                <ul>
+
+                    <li>Liderazgo en el análisis, diseño estructural y desarrollo front-end de plataformas web dinámicas.</li>
+
+                    <li>Maquetación web semántica y diseño adaptativo utilizando HTML5, CSS3 y layouts modernos.</li>
+
+                    <li>Gestión técnica de infraestructura local, actualizaciones críticas de firmware y mantenimiento correctivo de hardware de alto rendimiento.</li>
+
+                </ul>
+
+            </article>
+
+            <article class="trabajo">
+
+                <h3>Asistente de Logística y Planificación</h3>
+
+                <ul>
+
+                    <li>Aplicación de principios de planificación estratégica para el control operativo en proyectos familiares y comerciales.</li>
+
+                    <li>Supervisión de inventarios técnicos, herramientas de precisión y coordinación logística de suministros.</li>
+
+                    <li>Gestión de atención al cliente y optimización de procesos de distribución en ferias y mercados locales.</li>
+
+                </ul>
+
+            </article>
+
+        </section>
+
+        <section class="educacion">
+
+            <h2>Educación</h2>
+
+            <div class="estudio">
+
+                <h3>Ingeniería en Tecnologías de la Información y la Comunicación (TIC)</h3>
+
+                <p>Universidad de Investigación y Desarrollo</p>
+
+                <span>2023 - En curso</span>
+
             </div>
 
-            <div>
-                <strong>Redactor y Gestor de Contenido Técnico</strong><br>
-                <span>Gestión Freelance / Proyectos Documentales</span>
-                <ul style="margin-top: 5px;">
-                    <li>Generación de documentación técnica orientada a la arquitectura de sistemas y flujos de procesos.</li>
-                    <li>Aplicación de técnicas de redacción analítica para la elaboración de manuales y especificaciones técnicas claras.</li>
-                </ul>
+            <div class="estudio">
+
+                <h3>Certificación en Aplicaciones de Inteligencia Artificial</h3>
+
+                <p>Centro de Estudios Tecnológicos (Cetec)</p>
+
+                <span>2025</span>
+
             </div>
+
+        </section>
+
+        <section class="herramientas">
+
+            <h2>Herramientas</h2>
+
+            <div class="lista-herramientas">
+
+                <span>Java</span>
+
+                <span>Spring Boot</span>
+
+                <span>PostgreSQL</span>
+
+                <span>JavaScript</span>
+
+                <span>HTML5</span>
+
+                <span>CSS3</span>
+
+                <span>Git</span>
+
+                <span>GitHub</span>
+
+                <span>Visual Studio Code</span>
+
+            </div>
+
         </section>
 
     </main>
+
+</div>
 
 </body>
 </html>
