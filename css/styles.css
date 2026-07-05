@@ -10,7 +10,7 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#eef2f7;
+    background:lightgreen;
     color:#333;
     line-height:1.6;
 }
@@ -86,8 +86,8 @@ main p{
 =========================== */
 
 #contenedor-destacados{
-    display:grid;
-    gap:20px;
+    display:flex;
+    flex-direction:column;
 }
 
 .card{
